@@ -1,0 +1,250 @@
+[
+    {
+        "type": "text",
+        "text": "金花企业（集团）股份有限公司2025 年第一季度报告",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性承担法律责任。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "重要内容提示",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "公司董事会、监事会及董事、监事、高级管理人员保证季度报告内容的真实、准确、完整，不存在虚假记载、误导性陈述或重大遗漏，并承担个别和连带的法律责任。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "公司负责人、主管会计工作负责人及会计机构负责人（会计主管人员）保证季度报告中财务信息的真实、准确、完整。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "第一季度财务报表是否经审计□是√否 ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "一、主要财务数据",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(一)主要会计数据和财务指标",
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "page_idx": 0,
+        "img_path": "images/23715fa016343472e901d2a63caf42a4be85692bfbcc48516ed87b19e4041fe0.jpg"
+    },
+    {
+        "type": "table",
+        "page_idx": 1,
+        "img_path": "images/de22859a67cc3d6fa3d14b9a1eb4838594971964abd76548105ccf733e9f5e1a.jpg",
+        "table_caption": "$\\surd$适用□不适用"
+    },
+    {
+        "type": "table",
+        "page_idx": 1,
+        "img_path": "images/a3318e8373e3f608fae590228d7be0aaa15028760cf6f9e2627f7222db70ebd8.jpg",
+        "table_caption": "单位:元币种:人民币",
+        "table_footnote": "对公司将《公开发行证券的公司信息披露解释性公告第1 号——非经常性损益》未列举的项目认定为非经常性损益项目且金额重大的，以及将《公开发行证券的公司信息披露解释性公告第1 号——非经常性损益》中列举的非经常性损益项目界定为经常性损益的项目，应说明原因。□适用√不适用"
+    },
+    {
+        "type": "text",
+        "text": "(三)主要会计数据、财务指标发生变动的情况、原因",
+        "text_level": 1,
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "page_idx": 1,
+        "img_path": "images/3d845cbd91d03cbc4813fcbd26a6ad4efa7aaf921684ab9d6458394dc30bb232.jpg",
+        "table_caption": "√适用□不适用"
+    },
+    {
+        "type": "text",
+        "text": "二、股东信息",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(一) 普通股股东总数和表决权恢复的优先股股东数量及前十名股东持股情况表",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "单位：股 ",
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "page_idx": 2,
+        "img_path": "images/cafa271b4ead37a4af6b9b3e0ad49d891c14de3613edd752c8a602af0a45fd78.jpg"
+    },
+    {
+        "type": "table",
+        "page_idx": 3,
+        "img_path": "images/2f675be5f2f63bfc22304ae6305a0dc6ecb10c54623d05da6b95fa1c9ae18695.jpg"
+    },
+    {
+        "type": "text",
+        "text": "持股$5\\%$以上股东、前10 名股东及前10 名无限售流通股股东参与转融通业务出借股份情况□适用$\\surd$不适用",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "前10 名股东及前10 名无限售流通股股东因转融通出借/归还原因导致较上期发生变化□适用√不适用",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "三、其他提醒事项",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "需提醒投资者关注的关于公司报告期经营情况的其他重要信息□适用√不适用",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "四、季度财务报表",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(一)审计意见类型 □适用√不适用",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(二)财务报表",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "合并资产负债表",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2025 年3 月31 日",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "编制单位:金花企业（集团）股份有限公司",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "单位：元币种:人民币审计类型：未经审计",
+        "page_idx": 3
+    },
+    {
+        "type": "table",
+        "page_idx": 3,
+        "img_path": "images/41a564a7e7e5908b99e83f6d1ef72cac1910c00d97dec317ad0721aaa8de6abe.jpg"
+    },
+    {
+        "type": "table",
+        "page_idx": 4,
+        "img_path": "images/4c9d2acf08fb3973e919586162f7cc09afd17aeaeff75caf3e1eb841b1b4cca4.jpg"
+    },
+    {
+        "type": "table",
+        "page_idx": 5,
+        "img_path": "images/58e5702a28682ebe4ca1abbfaf45078d1557682fb58d4c0c94553475231177e6.jpg"
+    },
+    {
+        "type": "table",
+        "page_idx": 6,
+        "img_path": "images/b4826c17c208c3c8fab01f37159d65a6535a3782f25cfac54e01846e3bb52dde.jpg",
+        "table_footnote": "公司负责人：邢雅江主管会计工作负责人：张守峰会计机构负责人：何瑞"
+    },
+    {
+        "type": "text",
+        "text": "合并利润表",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "2025 年1—3 月",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "编制单位：金花企业（集团）股份有限公司",
+        "page_idx": 6
+    },
+    {
+        "type": "table",
+        "page_idx": 6,
+        "img_path": "images/31b345a9270f66745edd06e94b1b82cd6931347086fe62cf3da856afd66adfb7.jpg",
+        "table_caption": "单位：元币种:人民币审计类型：未经审计"
+    },
+    {
+        "type": "table",
+        "page_idx": 7,
+        "img_path": "images/3b269a177377736e45d26715396138abb6198be6b0bd27749151c273030978af.jpg"
+    },
+    {
+        "type": "table",
+        "page_idx": 8,
+        "img_path": "images/7838af98585b9c4eeec5d9c0ad50302f7601cb8b971dfb02eef48ff98cb12489.jpg",
+        "table_caption": "编制单位：金花企业（集团）股份有限公司"
+    },
+    {
+        "type": "text",
+        "text": "单位：元币种：人民币审计类型：未经审计",
+        "page_idx": 8
+    },
+    {
+        "type": "table",
+        "page_idx": 8,
+        "img_path": "images/ba961d54846e33ceff18f333ad52a048c7d18de86f0d7110b88f3782ad6c7828.jpg"
+    },
+    {
+        "type": "table",
+        "page_idx": 9,
+        "img_path": "images/d34dd8f73ce30a2cc0ccf3e0122ac312111267f4a5518710ed1537eed678dc8d.jpg"
+    },
+    {
+        "type": "table",
+        "page_idx": 10,
+        "img_path": "images/c1417c729f2380edd90fa2efcdd1bee3a635c4f84be4a2a3c5c66fcd31561378.jpg",
+        "table_footnote": "公司负责人：邢雅江主管会计工作负责人：张守峰会计机构负责人：何瑞"
+    },
+    {
+        "type": "text",
+        "text": "(三)2025 年起首次执行新会计准则或准则解释等涉及调整首次执行当年年初的财务报表\n\n□适用√不适用",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "特此公告",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "金花企业（集团）股份有限公司董事会邢雅江 2025 年4 月23 日",
+        "page_idx": 10
+    }
+]

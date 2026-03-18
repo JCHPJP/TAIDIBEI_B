@@ -1,0 +1,275 @@
+[
+    {
+        "type": "text",
+        "text": "金花企业（集团）股份有限公司 2024 年第一季度报告 ",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性承担法律责任。 ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "重要内容提示 ",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "公司董事会、监事会及董事、监事、高级管理人员保证季度报告内容的真实、准确、完整，不存在虚假记载、误导性陈述或重大遗漏，并承担个别和连带的法律责任。 ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "公司负责人、主管会计工作负责人及会计机构负责人（会计主管人员）保证季度报告中财务信息的真实、准确、完整。 ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "第一季度财务报表是否经审计 □是 √否   ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "一、 主要财务数据 ",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(一)主要会计数据和财务指标 ",
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "page_idx": 0,
+        "img_path": "images/4dc7e13aa7ad2427f1c0eb08175f5bacd32ad5b6ddb92fd352f4518fa0c5e801.jpg"
+    },
+    {
+        "type": "table",
+        "page_idx": 1,
+        "img_path": "images/8e71baf914f31f7378419440952bea57a0fb6584a4e24da9a63aac3ca9669970.jpg",
+        "table_caption": "$\\surd$适用 □不适用  "
+    },
+    {
+        "type": "table",
+        "page_idx": 1,
+        "img_path": "images/023efdef1598039078b523f98c0ff00bb4f43eb3928ac68ef56f909e62e66682.jpg",
+        "table_caption": "单位:元  币种:人民币 "
+    },
+    {
+        "type": "text",
+        "text": "对公司将《公开发行证券的公司信息披露解释性公告第1 号——非经常性损益》未列举的项目认定为的非经常性损益项目且金额重大的，以及将《公开发行证券的公司信息披露解释性公告第1号——非经常性损益》中列举的非经常性损益项目界定为经常性损益的项目，应说明原因。 □适用 √不适用  ",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "(三)主要会计数据、财务指标发生变动的情况、原因 ",
+        "text_level": 1,
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "page_idx": 1,
+        "img_path": "images/81f81878ee34c113942f352bea60ee55b6020ca722db6abf3440a19f905beab7.jpg",
+        "table_caption": "$\\surd$适用 □不适用  "
+    },
+    {
+        "type": "table",
+        "page_idx": 2,
+        "img_path": "images/768b54c509750e9a8be6378165c412ad40c60e099a008cbe8567170eb83c5289.jpg"
+    },
+    {
+        "type": "text",
+        "text": "二、 股东信息 ",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "(一) 普通股股东总数和表决权恢复的优先股股东数量及前十名股东持股情况表 ",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "单位：股  ",
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "page_idx": 2,
+        "img_path": "images/0aabe8e75cf3ddac29895e350909dc31a02c63247c5e730bcb39778edbfd71ed.jpg"
+    },
+    {
+        "type": "table",
+        "page_idx": 3,
+        "img_path": "images/760ac327cbb042bac79680f93885a4b4de60a92cfe90ae1f78d8ad1b81117dcc.jpg"
+    },
+    {
+        "type": "text",
+        "text": "持股$5\\%$以上股东、前10 名股东及前10 名无限售流通股股东参与转融通业务出借股份情况 □适用 $\\surd$不适用  ",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "前10 名股东及前10 名无限售流通股股东因转融通出借/归还原因导致较上期发生变化 □适用 √不适用  ",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "三、 其他提醒事项 ",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "需提醒投资者关注的关于公司报告期经营情况的其他重要信息 \n\n□适用 √不适用  \n\n",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "四、 季度财务报表 ",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(一)审计意见类型 \n\n □适用 $\\surd$不适用  ",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "(二)财务报表 ",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "合并资产负债表 ",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "2024 年3 月31 日 ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "编制单位:金花企业（集团）股份有限公司 ",
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "page_idx": 5,
+        "img_path": "images/e7fcdf4d373a5a73160b1edadf1ae2e7002a588dcf07b717b6209e75655cd6e5.jpg",
+        "table_caption": "单位：元  币种:人民币  审计类型：未经审计 "
+    },
+    {
+        "type": "table",
+        "page_idx": 6,
+        "img_path": "images/f30bc2b999b252ed4bc58296389e158898b357ca02c56c41cbff9d503d642f6c.jpg"
+    },
+    {
+        "type": "table",
+        "page_idx": 7,
+        "img_path": "images/972aa8891a6821a190330a888da8dc16a6e354d9d02b6ccc84921a0df17a5ea7.jpg",
+        "table_footnote": "公司负责人：邢雅江         主管会计工作负责人：韩卓军        会计机构负责人：张守峰 "
+    },
+    {
+        "type": "text",
+        "text": "合并利润表 ",
+        "text_level": 1,
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "2024 年1—3 月 ",
+        "text_level": 1,
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "编制单位：金花企业（集团）股份有限公司 ",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "单位：元  币种:人民币  审计类型：未经审计 ",
+        "page_idx": 7
+    },
+    {
+        "type": "table",
+        "page_idx": 7,
+        "img_path": "images/a3e28c472a5750b9d3159ff4223cb3da8e299cf4395cfc37d881bfeb2b560dd4.jpg"
+    },
+    {
+        "type": "table",
+        "page_idx": 8,
+        "img_path": "images/cde7728064a6481464701ae94064e40276f5e05680eeb96b7d5e37153f6ef0e8.jpg"
+    },
+    {
+        "type": "table",
+        "page_idx": 9,
+        "img_path": "images/f387985d0e1a66e7c34ce0e430f2989072af0a99077bfa46b2356c32296974fa.jpg"
+    },
+    {
+        "type": "text",
+        "text": "本期发生同一控制下企业合并的，被合并方在合并前实现的净利润为：0 元，上期被合并方实现的净利润为：0 元。 ",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "公司负责人：邢雅江         主管会计工作负责人：韩卓军        会计机构负责人：张守峰",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "合并现金流量表 ",
+        "text_level": 1,
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "2024 年1—3 月 ",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "编制单位：金花企业（集团）股份有限公司 ",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "单位：元  币种：人民币  审计类型：未经审计 ",
+        "page_idx": 10
+    },
+    {
+        "type": "table",
+        "page_idx": 10,
+        "img_path": "images/45400f78435b970746304377ccbb49c22d9b36ab4ff1fc7fffe4aaf9cfb3dd73.jpg"
+    },
+    {
+        "type": "table",
+        "page_idx": 11,
+        "img_path": "images/9ced750cdd2b4b0345b14b233c06e66450a518281bc64b75f4b02dadae3535c2.jpg",
+        "table_footnote": "公司负责人：邢雅江         主管会计工作负责人：韩卓军        会计机构负责人：张守峰 "
+    },
+    {
+        "type": "text",
+        "text": "(三)2024 年起首次执行新会计准则或准则解释等涉及调整首次执行当年年初的财务报表 \n\n□适用 □不适用  ",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "特此公告 ",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "金花企业（集团）股份有限公司董事会 2024 年4 月25 日 ",
+        "page_idx": 11
+    }
+]
