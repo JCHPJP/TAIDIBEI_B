@@ -1,0 +1,287 @@
+2026-03-27 10:54:52,844 - [MainThread] - INFO - ============================================================
+2026-03-27 10:54:52,844 - [MainThread] - INFO - 🚀 开始并行处理，共 37 个PDF文件
+2026-03-27 10:54:52,844 - [MainThread] - INFO - 📁 输出目录: /root/autodl-tmp/TAIDIBEI_B/parsed_results
+2026-03-27 10:54:52,844 - [MainThread] - INFO - 📄 日志文件: /root/autodl-tmp/TAIDIBEI_B/logs/processing_20260327_105452.log
+2026-03-27 10:54:52,844 - [MainThread] - INFO - ⚡ 并发数: 3
+2026-03-27 10:54:52,845 - [MainThread] - INFO - 💻 CPU核心数: 128
+2026-03-27 10:54:52,845 - [MainThread] - INFO - 🔧 OpenMP线程限制: 2
+2026-03-27 10:54:52,845 - [MainThread] - INFO - ============================================================
+2026-03-27 10:54:52,846 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0] 处理: 600080_20230428_FQ2V.pdf
+2026-03-27 10:54:52,847 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1] 处理: 600080_20230428_MMWM.pdf
+2026-03-27 10:54:52,849 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2] 处理: 600080_20230428_PCK7.pdf
+2026-03-27 10:55:43,038 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📄 移动: 600080_20230428_FQ2V.md
+2026-03-27 10:55:43,042 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 600080_20230428_FQ2V_middle.json
+2026-03-27 10:55:43,043 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 600080_20230428_FQ2V_model.json
+2026-03-27 10:55:43,044 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 600080_20230428_FQ2V_content_list.json
+2026-03-27 10:55:43,052 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   🖼️  移动图片: 9张
+2026-03-27 10:55:43,054 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   ✅ 完成: 600080_20230428_FQ2V
+2026-03-27 10:55:43,054 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0] 处理: 600080_20230819_DNUE.pdf
+2026-03-27 10:55:45,866 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📄 移动: 600080_20230428_PCK7.md
+2026-03-27 10:55:45,868 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 600080_20230428_PCK7_middle.json
+2026-03-27 10:55:45,869 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 600080_20230428_PCK7_model.json
+2026-03-27 10:55:45,870 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 600080_20230428_PCK7_content_list.json
+2026-03-27 10:55:45,888 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   🖼️  移动图片: 16张
+2026-03-27 10:55:45,889 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   ✅ 完成: 600080_20230428_PCK7
+2026-03-27 10:55:45,890 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2] 处理: 600080_20230819_U8CH.pdf
+2026-03-27 10:56:29,861 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📄 移动: 600080_20230819_DNUE.md
+2026-03-27 10:56:29,863 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 600080_20230819_DNUE_middle.json
+2026-03-27 10:56:29,864 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 600080_20230819_DNUE_model.json
+2026-03-27 10:56:29,865 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 600080_20230819_DNUE_content_list.json
+2026-03-27 10:56:29,870 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   🖼️  移动图片: 5张
+2026-03-27 10:56:29,871 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   ✅ 完成: 600080_20230819_DNUE
+2026-03-27 10:56:29,871 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0] 处理: 600080_20231028_F42E.pdf
+2026-03-27 10:57:26,983 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📄 移动: 600080_20231028_F42E.md
+2026-03-27 10:57:26,985 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 600080_20231028_F42E_middle.json
+2026-03-27 10:57:26,986 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 600080_20231028_F42E_model.json
+2026-03-27 10:57:26,986 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 600080_20231028_F42E_content_list.json
+2026-03-27 10:57:27,005 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   🖼️  移动图片: 15张
+2026-03-27 10:57:27,006 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   ✅ 完成: 600080_20231028_F42E
+2026-03-27 10:57:27,007 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0] 处理: 600080_20240427_0WKP.pdf
+2026-03-27 10:58:40,929 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📄 移动: 600080_20230819_U8CH.md
+2026-03-27 10:58:40,948 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 600080_20230819_U8CH_middle.json
+2026-03-27 10:58:40,952 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 600080_20230819_U8CH_model.json
+2026-03-27 10:58:40,953 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 600080_20230819_U8CH_content_list.json
+2026-03-27 10:58:41,049 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   🖼️  移动图片: 200张
+2026-03-27 10:58:41,052 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   ✅ 完成: 600080_20230819_U8CH
+2026-03-27 10:58:41,052 - [MainThread] - INFO - 📊 进度: 5/37 (13.5%) | 成功: 5 | 失败: 0 | 速度: 0.02个/秒 | 预计剩余: 1461秒
+2026-03-27 10:58:41,053 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2] 处理: 600080_20240427_IBMB.pdf
+2026-03-27 10:58:53,438 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📄 移动: 600080_20230428_MMWM.md
+2026-03-27 10:58:53,463 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 600080_20230428_MMWM_middle.json
+2026-03-27 10:58:53,467 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 600080_20230428_MMWM_model.json
+2026-03-27 10:58:53,468 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 600080_20230428_MMWM_content_list.json
+2026-03-27 10:58:53,602 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   🖼️  移动图片: 285张
+2026-03-27 10:58:53,606 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   ✅ 完成: 600080_20230428_MMWM
+2026-03-27 10:58:53,606 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1] 处理: 600080_20240427_W39O.pdf
+2026-03-27 10:59:32,401 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📄 移动: 600080_20240427_IBMB.md
+2026-03-27 10:59:32,404 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 600080_20240427_IBMB_middle.json
+2026-03-27 10:59:32,405 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 600080_20240427_IBMB_model.json
+2026-03-27 10:59:32,405 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 600080_20240427_IBMB_content_list.json
+2026-03-27 10:59:32,423 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   🖼️  移动图片: 15张
+2026-03-27 10:59:32,425 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   ✅ 完成: 600080_20240427_IBMB
+2026-03-27 10:59:32,426 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2] 处理: 600080_20240817_5X5X.pdf
+2026-03-27 10:59:45,325 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📄 移动: 600080_20240427_W39O.md
+2026-03-27 10:59:45,328 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 600080_20240427_W39O_middle.json
+2026-03-27 10:59:45,329 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 600080_20240427_W39O_model.json
+2026-03-27 10:59:45,329 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 600080_20240427_W39O_content_list.json
+2026-03-27 10:59:45,337 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   🖼️  移动图片: 9张
+2026-03-27 10:59:45,338 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   ✅ 完成: 600080_20240427_W39O
+2026-03-27 10:59:45,339 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1] 处理: 600080_20240817_6AW9.pdf
+2026-03-27 11:00:32,050 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📄 移动: 600080_20240817_6AW9.md
+2026-03-27 11:00:32,051 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 600080_20240817_6AW9_middle.json
+2026-03-27 11:00:32,052 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 600080_20240817_6AW9_model.json
+2026-03-27 11:00:32,053 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 600080_20240817_6AW9_content_list.json
+2026-03-27 11:00:32,057 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   🖼️  移动图片: 5张
+2026-03-27 11:00:32,059 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   ✅ 完成: 600080_20240817_6AW9
+2026-03-27 11:00:32,059 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1] 处理: 600080_20241030_XN72.pdf
+2026-03-27 11:01:28,098 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📄 移动: 600080_20241030_XN72.md
+2026-03-27 11:01:28,100 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 600080_20241030_XN72_middle.json
+2026-03-27 11:01:28,101 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 600080_20241030_XN72_model.json
+2026-03-27 11:01:28,102 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 600080_20241030_XN72_content_list.json
+2026-03-27 11:01:28,119 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   🖼️  移动图片: 14张
+2026-03-27 11:01:28,120 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   ✅ 完成: 600080_20241030_XN72
+2026-03-27 11:01:28,121 - [MainThread] - INFO - 📊 进度: 10/37 (27.0%) | 成功: 10 | 失败: 0 | 速度: 0.03个/秒 | 预计剩余: 1067秒
+2026-03-27 11:01:28,121 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1] 处理: 600080_20250425_6GSD.pdf
+2026-03-27 11:01:56,843 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📄 移动: 600080_20240427_0WKP.md
+2026-03-27 11:01:56,870 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 600080_20240427_0WKP_middle.json
+2026-03-27 11:01:56,874 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 600080_20240427_0WKP_model.json
+2026-03-27 11:01:56,876 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 600080_20240427_0WKP_content_list.json
+2026-03-27 11:01:57,016 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   🖼️  移动图片: 291张
+2026-03-27 11:01:57,020 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   ✅ 完成: 600080_20240427_0WKP
+2026-03-27 11:01:57,020 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0] 处理: 600080_20250425_LXGH.pdf
+2026-03-27 11:02:17,968 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📄 移动: 600080_20250425_6GSD.md
+2026-03-27 11:02:17,970 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 600080_20250425_6GSD_middle.json
+2026-03-27 11:02:17,971 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 600080_20250425_6GSD_model.json
+2026-03-27 11:02:17,972 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 600080_20250425_6GSD_content_list.json
+2026-03-27 11:02:17,990 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   🖼️  移动图片: 16张
+2026-03-27 11:02:17,991 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   ✅ 完成: 600080_20250425_6GSD
+2026-03-27 11:02:17,992 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1] 处理: 600080_20250425_P7ID.pdf
+2026-03-27 11:02:24,988 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📄 移动: 600080_20240817_5X5X.md
+2026-03-27 11:02:25,008 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 600080_20240817_5X5X_middle.json
+2026-03-27 11:02:25,011 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 600080_20240817_5X5X_model.json
+2026-03-27 11:02:25,014 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 600080_20240817_5X5X_content_list.json
+2026-03-27 11:02:25,125 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   🖼️  移动图片: 201张
+2026-03-27 11:02:25,128 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   ✅ 完成: 600080_20240817_5X5X
+2026-03-27 11:02:25,128 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2] 处理: 600080_20250822_ABVM.pdf
+2026-03-27 11:03:08,463 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📄 移动: 600080_20250425_P7ID.md
+2026-03-27 11:03:08,466 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 600080_20250425_P7ID_middle.json
+2026-03-27 11:03:08,467 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 600080_20250425_P7ID_model.json
+2026-03-27 11:03:08,468 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 600080_20250425_P7ID_content_list.json
+2026-03-27 11:03:08,478 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   🖼️  移动图片: 12张
+2026-03-27 11:03:08,479 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   ✅ 完成: 600080_20250425_P7ID
+2026-03-27 11:03:08,479 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1] 处理: 600080_20250822_ODWZ.pdf
+2026-03-27 11:03:10,058 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📄 移动: 600080_20250822_ABVM.md
+2026-03-27 11:03:10,060 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 600080_20250822_ABVM_middle.json
+2026-03-27 11:03:10,061 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 600080_20250822_ABVM_model.json
+2026-03-27 11:03:10,062 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 600080_20250822_ABVM_content_list.json
+2026-03-27 11:03:10,066 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   🖼️  移动图片: 5张
+2026-03-27 11:03:10,067 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   ✅ 完成: 600080_20250822_ABVM
+2026-03-27 11:03:10,067 - [MainThread] - INFO - 📊 进度: 15/37 (40.5%) | 成功: 15 | 失败: 0 | 速度: 0.03个/秒 | 预计剩余: 729秒
+2026-03-27 11:03:10,068 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2] 处理: 600080_20251030_IVCB.pdf
+2026-03-27 11:04:03,828 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📄 移动: 600080_20251030_IVCB.md
+2026-03-27 11:04:03,830 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 600080_20251030_IVCB_middle.json
+2026-03-27 11:04:03,831 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 600080_20251030_IVCB_model.json
+2026-03-27 11:04:03,831 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 600080_20251030_IVCB_content_list.json
+2026-03-27 11:04:03,849 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   🖼️  移动图片: 16张
+2026-03-27 11:04:03,850 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   ✅ 完成: 600080_20251030_IVCB
+2026-03-27 11:04:03,851 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2] 处理: 华润三九：2022年年度报告.pdf
+2026-03-27 11:06:03,784 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📄 移动: 600080_20250425_LXGH.md
+2026-03-27 11:06:03,809 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 600080_20250425_LXGH_middle.json
+2026-03-27 11:06:03,813 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 600080_20250425_LXGH_model.json
+2026-03-27 11:06:03,815 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 600080_20250425_LXGH_content_list.json
+2026-03-27 11:06:03,949 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   🖼️  移动图片: 301张
+2026-03-27 11:06:03,951 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   ✅ 完成: 600080_20250425_LXGH
+2026-03-27 11:06:03,952 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0] 处理: 华润三九：2022年年度报告摘要.pdf
+2026-03-27 11:06:09,712 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📄 移动: 600080_20250822_ODWZ.md
+2026-03-27 11:06:09,735 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 600080_20250822_ODWZ_middle.json
+2026-03-27 11:06:09,738 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 600080_20250822_ODWZ_model.json
+2026-03-27 11:06:09,740 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 600080_20250822_ODWZ_content_list.json
+2026-03-27 11:06:09,852 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   🖼️  移动图片: 220张
+2026-03-27 11:06:09,854 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   ✅ 完成: 600080_20250822_ODWZ
+2026-03-27 11:06:09,854 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1] 处理: 华润三九：2023年一季度报告.pdf
+2026-03-27 11:06:53,750 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📄 移动: 华润三九：2022年年度报告摘要.md
+2026-03-27 11:06:53,752 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 华润三九：2022年年度报告摘要_middle.json
+2026-03-27 11:06:53,753 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 华润三九：2022年年度报告摘要_model.json
+2026-03-27 11:06:53,756 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 华润三九：2022年年度报告摘要_content_list.json
+2026-03-27 11:06:53,763 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   🖼️  移动图片: 8张
+2026-03-27 11:06:53,764 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   ✅ 完成: 华润三九：2022年年度报告摘要
+2026-03-27 11:06:53,765 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0] 处理: 华润三九：2023年三季度报告.pdf
+2026-03-27 11:07:07,490 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📄 移动: 华润三九：2023年一季度报告.md
+2026-03-27 11:07:07,492 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 华润三九：2023年一季度报告_middle.json
+2026-03-27 11:07:07,493 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 华润三九：2023年一季度报告_model.json
+2026-03-27 11:07:07,494 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 华润三九：2023年一季度报告_content_list.json
+2026-03-27 11:07:07,513 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   🖼️  移动图片: 14张
+2026-03-27 11:07:07,514 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   ✅ 完成: 华润三九：2023年一季度报告
+2026-03-27 11:07:07,515 - [MainThread] - INFO - 📊 进度: 20/37 (54.1%) | 成功: 20 | 失败: 0 | 速度: 0.03个/秒 | 预计剩余: 624秒
+2026-03-27 11:07:07,515 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1] 处理: 华润三九：2023年半年度报告.pdf
+2026-03-27 11:07:50,843 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📄 移动: 华润三九：2023年三季度报告.md
+2026-03-27 11:07:50,845 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 华润三九：2023年三季度报告_middle.json
+2026-03-27 11:07:50,846 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 华润三九：2023年三季度报告_model.json
+2026-03-27 11:07:50,847 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 华润三九：2023年三季度报告_content_list.json
+2026-03-27 11:07:50,866 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   🖼️  移动图片: 15张
+2026-03-27 11:07:50,868 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   ✅ 完成: 华润三九：2023年三季度报告
+2026-03-27 11:07:50,869 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0] 处理: 华润三九：2023年半年度报告摘要.pdf
+2026-03-27 11:08:36,063 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📄 移动: 华润三九：2023年半年度报告摘要.md
+2026-03-27 11:08:36,064 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 华润三九：2023年半年度报告摘要_middle.json
+2026-03-27 11:08:36,065 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 华润三九：2023年半年度报告摘要_model.json
+2026-03-27 11:08:36,066 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 华润三九：2023年半年度报告摘要_content_list.json
+2026-03-27 11:08:36,071 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   🖼️  移动图片: 4张
+2026-03-27 11:08:36,073 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   ✅ 完成: 华润三九：2023年半年度报告摘要
+2026-03-27 11:08:36,074 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0] 处理: 华润三九：2023年年度报告.pdf
+2026-03-27 11:09:28,421 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📄 移动: 华润三九：2022年年度报告.md
+2026-03-27 11:09:28,456 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 华润三九：2022年年度报告_middle.json
+2026-03-27 11:09:28,461 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 华润三九：2022年年度报告_model.json
+2026-03-27 11:09:28,464 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 华润三九：2022年年度报告_content_list.json
+2026-03-27 11:09:28,584 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   🖼️  移动图片: 297张
+2026-03-27 11:09:28,590 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   ✅ 完成: 华润三九：2022年年度报告
+2026-03-27 11:09:28,590 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2] 处理: 华润三九：2023年年度报告摘要.pdf
+2026-03-27 11:10:19,971 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📄 移动: 华润三九：2023年年度报告摘要.md
+2026-03-27 11:10:19,973 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 华润三九：2023年年度报告摘要_middle.json
+2026-03-27 11:10:19,974 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 华润三九：2023年年度报告摘要_model.json
+2026-03-27 11:10:19,975 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 华润三九：2023年年度报告摘要_content_list.json
+2026-03-27 11:10:19,984 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   🖼️  移动图片: 9张
+2026-03-27 11:10:19,985 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   ✅ 完成: 华润三九：2023年年度报告摘要
+2026-03-27 11:10:19,986 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2] 处理: 华润三九：2024年一季度报告.pdf
+2026-03-27 11:10:32,903 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📄 移动: 华润三九：2023年半年度报告.md
+2026-03-27 11:10:32,922 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 华润三九：2023年半年度报告_middle.json
+2026-03-27 11:10:32,925 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 华润三九：2023年半年度报告_model.json
+2026-03-27 11:10:32,927 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 华润三九：2023年半年度报告_content_list.json
+2026-03-27 11:10:33,051 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   🖼️  移动图片: 258张
+2026-03-27 11:10:33,054 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   ✅ 完成: 华润三九：2023年半年度报告
+2026-03-27 11:10:33,055 - [MainThread] - INFO - 📊 进度: 25/37 (67.6%) | 成功: 25 | 失败: 0 | 速度: 0.03个/秒 | 预计剩余: 451秒
+2026-03-27 11:10:33,055 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1] 处理: 华润三九：2024年三季度报告.pdf
+2026-03-27 11:11:14,607 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📄 移动: 华润三九：2024年一季度报告.md
+2026-03-27 11:11:14,610 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 华润三九：2024年一季度报告_middle.json
+2026-03-27 11:11:14,611 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 华润三九：2024年一季度报告_model.json
+2026-03-27 11:11:14,612 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 华润三九：2024年一季度报告_content_list.json
+2026-03-27 11:11:14,631 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   🖼️  移动图片: 16张
+2026-03-27 11:11:14,633 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   ✅ 完成: 华润三九：2024年一季度报告
+2026-03-27 11:11:14,633 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2] 处理: 华润三九：2024年半年度报告.pdf
+2026-03-27 11:11:34,205 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📄 移动: 华润三九：2024年三季度报告.md
+2026-03-27 11:11:34,207 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 华润三九：2024年三季度报告_middle.json
+2026-03-27 11:11:34,208 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 华润三九：2024年三季度报告_model.json
+2026-03-27 11:11:34,209 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 华润三九：2024年三季度报告_content_list.json
+2026-03-27 11:11:34,229 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   🖼️  移动图片: 15张
+2026-03-27 11:11:34,231 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   ✅ 完成: 华润三九：2024年三季度报告
+2026-03-27 11:11:34,232 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1] 处理: 华润三九：2024年半年度报告摘要.pdf
+2026-03-27 11:12:20,809 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📄 移动: 华润三九：2024年半年度报告摘要.md
+2026-03-27 11:12:20,811 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 华润三九：2024年半年度报告摘要_middle.json
+2026-03-27 11:12:20,811 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 华润三九：2024年半年度报告摘要_model.json
+2026-03-27 11:12:20,812 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 华润三九：2024年半年度报告摘要_content_list.json
+2026-03-27 11:12:20,818 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   🖼️  移动图片: 6张
+2026-03-27 11:12:20,819 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   ✅ 完成: 华润三九：2024年半年度报告摘要
+2026-03-27 11:12:20,820 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1] 处理: 华润三九：2024年年度报告.pdf
+2026-03-27 11:13:32,198 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📄 移动: 华润三九：2023年年度报告.md
+2026-03-27 11:13:32,229 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 华润三九：2023年年度报告_middle.json
+2026-03-27 11:13:32,234 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 华润三九：2023年年度报告_model.json
+2026-03-27 11:13:32,236 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 华润三九：2023年年度报告_content_list.json
+2026-03-27 11:13:32,463 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   🖼️  移动图片: 454张
+2026-03-27 11:13:32,471 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   ✅ 完成: 华润三九：2023年年度报告
+2026-03-27 11:13:32,472 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0] 处理: 华润三九：2024年年度报告摘要.pdf
+2026-03-27 11:14:19,176 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📄 移动: 华润三九：2024年年度报告摘要.md
+2026-03-27 11:14:19,178 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 华润三九：2024年年度报告摘要_middle.json
+2026-03-27 11:14:19,179 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 华润三九：2024年年度报告摘要_model.json
+2026-03-27 11:14:19,179 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 华润三九：2024年年度报告摘要_content_list.json
+2026-03-27 11:14:19,186 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   🖼️  移动图片: 6张
+2026-03-27 11:14:19,187 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   ✅ 完成: 华润三九：2024年年度报告摘要
+2026-03-27 11:14:19,187 - [MainThread] - INFO - 📊 进度: 30/37 (81.1%) | 成功: 30 | 失败: 0 | 速度: 0.03个/秒 | 预计剩余: 272秒
+2026-03-27 11:14:19,188 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0] 处理: 华润三九：2025年一季度报告.pdf
+2026-03-27 11:15:06,678 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📄 移动: 华润三九：2024年半年度报告.md
+2026-03-27 11:15:06,703 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 华润三九：2024年半年度报告_middle.json
+2026-03-27 11:15:06,707 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 华润三九：2024年半年度报告_model.json
+2026-03-27 11:15:06,709 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 华润三九：2024年半年度报告_content_list.json
+2026-03-27 11:15:06,856 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   🖼️  移动图片: 282张
+2026-03-27 11:15:06,861 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   ✅ 完成: 华润三九：2024年半年度报告
+2026-03-27 11:15:06,862 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2] 处理: 华润三九：2025年三季度报告.pdf
+2026-03-27 11:15:17,632 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📄 移动: 华润三九：2025年一季度报告.md
+2026-03-27 11:15:17,634 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 华润三九：2025年一季度报告_middle.json
+2026-03-27 11:15:17,635 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 华润三九：2025年一季度报告_model.json
+2026-03-27 11:15:17,636 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 华润三九：2025年一季度报告_content_list.json
+2026-03-27 11:15:17,656 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   🖼️  移动图片: 14张
+2026-03-27 11:15:17,657 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   ✅ 完成: 华润三九：2025年一季度报告
+2026-03-27 11:15:17,658 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0] 处理: 华润三九：2025年半年度报告.pdf
+2026-03-27 11:16:05,825 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📄 移动: 华润三九：2025年三季度报告.md
+2026-03-27 11:16:05,827 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 华润三九：2025年三季度报告_middle.json
+2026-03-27 11:16:05,828 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 华润三九：2025年三季度报告_model.json
+2026-03-27 11:16:05,829 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 华润三九：2025年三季度报告_content_list.json
+2026-03-27 11:16:05,849 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   🖼️  移动图片: 15张
+2026-03-27 11:16:05,851 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   ✅ 完成: 华润三九：2025年三季度报告
+2026-03-27 11:16:05,852 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2] 处理: 华润三九：2025年半年度报告摘要.pdf
+2026-03-27 11:16:51,694 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📄 移动: 华润三九：2025年半年度报告摘要.md
+2026-03-27 11:16:51,696 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 华润三九：2025年半年度报告摘要_middle.json
+2026-03-27 11:16:51,697 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 华润三九：2025年半年度报告摘要_model.json
+2026-03-27 11:16:51,697 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 华润三九：2025年半年度报告摘要_content_list.json
+2026-03-27 11:16:51,700 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   🖼️  移动图片: 4张
+2026-03-27 11:16:51,701 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   ✅ 完成: 华润三九：2025年半年度报告摘要
+2026-03-27 11:16:51,701 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2] 处理: 华润三九：2023年半年度报告-checkpoint.pdf
+2026-03-27 11:17:56,868 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📄 移动: 华润三九：2024年年度报告.md
+2026-03-27 11:17:56,895 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 华润三九：2024年年度报告_middle.json
+2026-03-27 11:17:56,900 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 华润三九：2024年年度报告_model.json
+2026-03-27 11:17:56,902 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   📊 移动: 华润三九：2024年年度报告_content_list.json
+2026-03-27 11:17:57,132 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   🖼️  移动图片: 458张
+2026-03-27 11:17:57,139 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1]   ✅ 完成: 华润三九：2024年年度报告
+2026-03-27 11:17:57,139 - [MainThread] - INFO - 📊 进度: 35/37 (94.6%) | 成功: 35 | 失败: 0 | 速度: 0.03个/秒 | 预计剩余: 79秒
+2026-03-27 11:19:51,651 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📄 移动: 华润三九：2025年半年度报告.md
+2026-03-27 11:19:51,671 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 华润三九：2025年半年度报告_middle.json
+2026-03-27 11:19:51,674 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 华润三九：2025年半年度报告_model.json
+2026-03-27 11:19:51,676 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   📊 移动: 华润三九：2025年半年度报告_content_list.json
+2026-03-27 11:19:51,856 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   🖼️  移动图片: 336张
+2026-03-27 11:19:51,863 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0]   ✅ 完成: 华润三九：2025年半年度报告
+2026-03-27 11:20:16,886 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📄 移动: 华润三九：2023年半年度报告-checkpoint.md
+2026-03-27 11:20:16,900 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 华润三九：2023年半年度报告-checkpoint_middle.json
+2026-03-27 11:20:16,902 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 华润三九：2023年半年度报告-checkpoint_model.json
+2026-03-27 11:20:16,904 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   📊 移动: 华润三九：2023年半年度报告-checkpoint_content_list.json
+2026-03-27 11:20:17,012 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   🖼️  移动图片: 258张
+2026-03-27 11:20:17,015 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2]   ✅ 完成: 华润三九：2023年半年度报告-checkpoint
+2026-03-27 11:20:17,016 - [MainThread] - INFO - 📊 进度: 37/37 (100.0%) | 成功: 37 | 失败: 0 | 速度: 0.02个/秒 | 预计剩余: 0秒
+2026-03-27 11:20:17,016 - [MainThread] - INFO - 
+============================================================
+2026-03-27 11:20:17,016 - [MainThread] - INFO - ✅ 全部处理完成！
+2026-03-27 11:20:17,016 - [MainThread] - INFO - 📊 统计:
+2026-03-27 11:20:17,016 - [MainThread] - INFO -    总文件: 37
+2026-03-27 11:20:17,016 - [MainThread] - INFO -    成功: 37
+2026-03-27 11:20:17,016 - [MainThread] - INFO -    失败: 0
+2026-03-27 11:20:17,017 - [MainThread] - INFO -    成功率: 100.0%
+2026-03-27 11:20:17,017 - [MainThread] - INFO -    用时: 0小时25分钟24秒
+2026-03-27 11:20:17,017 - [MainThread] - INFO - 📁 结果目录: /root/autodl-tmp/TAIDIBEI_B/parsed_results
+2026-03-27 11:20:17,017 - [MainThread] - INFO - 📄 日志文件: /root/autodl-tmp/TAIDIBEI_B/logs/processing_20260327_105452.log
+2026-03-27 11:20:17,017 - [MainThread] - INFO - ============================================================

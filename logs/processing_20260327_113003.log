@@ -1,0 +1,35 @@
+2026-03-27 11:30:03,848 - [MainThread] - INFO - ============================================================
+2026-03-27 11:30:03,848 - [MainThread] - INFO - 🚀 开始并行处理，共 37 个PDF文件
+2026-03-27 11:30:03,848 - [MainThread] - INFO - 📁 输出目录: /root/autodl-tmp/TAIDIBEI_B/parsed_results
+2026-03-27 11:30:03,848 - [MainThread] - INFO - 📄 日志文件: /root/autodl-tmp/TAIDIBEI_B/logs/processing_20260327_113003.log
+2026-03-27 11:30:03,849 - [MainThread] - INFO - ⚡ 并发数: 3
+2026-03-27 11:30:03,849 - [MainThread] - INFO - 💻 CPU核心数: 128
+2026-03-27 11:30:03,849 - [MainThread] - INFO - 🔧 OpenMP线程限制: 3
+2026-03-27 11:30:03,849 - [MainThread] - INFO - ============================================================
+2026-03-27 11:30:03,850 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0] 处理: 600080_20230428_FQ2V.pdf
+2026-03-27 11:30:03,851 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1] 处理: 600080_20230428_MMWM.pdf
+2026-03-27 11:30:03,852 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2] 处理: 600080_20230428_PCK7.pdf
+2026-03-27 11:30:19,855 - [ThreadPoolExecutor-0_0] - ERROR - [ThreadPoolExecutor-0_0]   ❌ 处理失败: 600080_20230428_FQ2V.pdf
+2026-03-27 11:30:19,855 - [ThreadPoolExecutor-0_0] - ERROR - [ThreadPoolExecutor-0_0]      错误: 2026-03-27 11:30:05.543 | WARNING  | magic_pdf.cli.magicpdf:get_model_json:312 - not found json /root/autodl-tmp/TAIDIBEI_B/data/raw/示例数据/附件2：财务报告/reports-上交所/600080_20230428_FQ2V.json existed
+2026-03
+2026-03-27 11:30:19,856 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0] 处理: 600080_20230819_DNUE.pdf
+2026-03-27 11:30:19,877 - [ThreadPoolExecutor-0_2] - ERROR - [ThreadPoolExecutor-0_2]   ❌ 处理失败: 600080_20230428_PCK7.pdf
+2026-03-27 11:30:19,877 - [ThreadPoolExecutor-0_2] - ERROR - [ThreadPoolExecutor-0_2]      错误: 2026-03-27 11:30:05.533 | WARNING  | magic_pdf.cli.magicpdf:get_model_json:312 - not found json /root/autodl-tmp/TAIDIBEI_B/data/raw/示例数据/附件2：财务报告/reports-上交所/600080_20230428_PCK7.json existed
+2026-03
+2026-03-27 11:30:19,878 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2] 处理: 600080_20230819_U8CH.pdf
+2026-03-27 11:30:20,137 - [ThreadPoolExecutor-0_2] - ERROR - [ThreadPoolExecutor-0_2]   ❌ 处理失败: 600080_20230819_U8CH.pdf
+2026-03-27 11:30:20,137 - [ThreadPoolExecutor-0_2] - ERROR - [ThreadPoolExecutor-0_2]      错误: Traceback (most recent call last):
+  File "/root/miniconda3/bin/magic-pdf", line 5, in <module>
+    from magic_pdf.cli.magicpdf import cli
+  File "/root/miniconda3/lib/python3.10/site-packages/magic_p
+2026-03-27 11:30:20,138 - [ThreadPoolExecutor-0_2] - INFO - [ThreadPoolExecutor-0_2] 处理: 600080_20231028_F42E.pdf
+2026-03-27 11:30:20,145 - [ThreadPoolExecutor-0_0] - ERROR - [ThreadPoolExecutor-0_0]   ❌ 处理失败: 600080_20230819_DNUE.pdf
+2026-03-27 11:30:20,146 - [ThreadPoolExecutor-0_0] - ERROR - [ThreadPoolExecutor-0_0]      错误: Traceback (most recent call last):
+  File "/root/miniconda3/bin/magic-pdf", line 5, in <module>
+    from magic_pdf.cli.magicpdf import cli
+  File "/root/miniconda3/lib/python3.10/site-packages/magic_p
+2026-03-27 11:30:20,146 - [ThreadPoolExecutor-0_0] - INFO - [ThreadPoolExecutor-0_0] 处理: 600080_20240427_0WKP.pdf
+2026-03-27 11:30:20,211 - [ThreadPoolExecutor-0_1] - ERROR - [ThreadPoolExecutor-0_1]   ❌ 处理失败: 600080_20230428_MMWM.pdf
+2026-03-27 11:30:20,211 - [ThreadPoolExecutor-0_1] - ERROR - [ThreadPoolExecutor-0_1]      错误: 2026-03-27 11:30:05.590 | WARNING  | magic_pdf.cli.magicpdf:get_model_json:312 - not found json /root/autodl-tmp/TAIDIBEI_B/data/raw/示例数据/附件2：财务报告/reports-上交所/600080_20230428_MMWM.json existed
+2026-03
+2026-03-27 11:30:20,212 - [ThreadPoolExecutor-0_1] - INFO - [ThreadPoolExecutor-0_1] 处理: 600080_20240427_IBMB.pdf

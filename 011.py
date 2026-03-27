@@ -1,8 +1,6 @@
 from  multiprocessing import Process,Pool
 import os
-from tqdm import tqdm 
 import base64
-import time 
 from openai import OpenAI
 from pathlib import Path
 from dotenv import load_dotenv
