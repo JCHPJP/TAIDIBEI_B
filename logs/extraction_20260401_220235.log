@@ -1,0 +1,31 @@
+2026-04-01 22:02:35,117 - INFO - ============================================================
+2026-04-01 22:02:35,117 - INFO - 程序开始运行
+2026-04-01 22:02:35,118 - INFO - ============================================================
+2026-04-01 22:02:35,119 - INFO - 读取提示词模板: prompt-templates.md
+2026-04-01 22:02:35,119 - INFO - 提示词模板加载成功，长度: 6502 字符
+2026-04-01 22:02:35,120 - INFO - 扫描文件夹: processed
+2026-04-01 22:02:35,124 - INFO - 找到 36 个Markdown文件
+2026-04-01 22:02:35,124 - INFO - 使用 15 个进程并发处理
+2026-04-01 22:02:36,976 - INFO - 开始批量处理...
+2026-04-01 22:09:14,217 - INFO - ============================================================
+2026-04-01 22:09:14,217 - INFO - 处理完成汇总
+2026-04-01 22:09:14,217 - INFO - ============================================================
+2026-04-01 22:09:14,217 - INFO - 总文件数: 36
+2026-04-01 22:09:14,217 - INFO - 成功: 27
+2026-04-01 22:09:14,217 - INFO - 失败: 9
+2026-04-01 22:09:14,217 - INFO - 总数据库插入数: 108
+2026-04-01 22:09:14,217 - INFO - 总耗时: 397.24 秒
+2026-04-01 22:09:14,221 - INFO - 平均每个文件耗时: 11.03 秒
+2026-04-01 22:09:14,227 - INFO - 汇总结果已保存到: extraction_summary.json
+2026-04-01 22:09:14,228 - WARNING - 失败的文件列表:
+2026-04-01 22:09:14,228 - WARNING -   - 600080_20230428_MMWM.md: JSON解析失败: Unterminated string starting at: line 21 column 5 (char 3369)
+2026-04-01 22:09:14,228 - WARNING -   - 600080_20240427_0WKP.md: Error code: 400 - {'error': {'message': "This model's maximum context length is 131072 tokens. However, you requested 135477 tokens (135477 in the messages, 0 in the completion). Please reduce the length of the messages or completion.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}
+2026-04-01 22:09:14,230 - WARNING -   - 600080_20250425_LXGH.md: Error code: 400 - {'error': {'message': "This model's maximum context length is 131072 tokens. However, you requested 134699 tokens (134699 in the messages, 0 in the completion). Please reduce the length of the messages or completion.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}
+2026-04-01 22:09:14,230 - WARNING -   - 华润三九：2022年年度报告.md: Error code: 400 - {'error': {'message': "This model's maximum context length is 131072 tokens. However, you requested 183208 tokens (183208 in the messages, 0 in the completion). Please reduce the length of the messages or completion.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}
+2026-04-01 22:09:14,230 - WARNING -   - 华润三九：2023年半年度报告.md: Error code: 400 - {'error': {'message': "This model's maximum context length is 131072 tokens. However, you requested 137792 tokens (137792 in the messages, 0 in the completion). Please reduce the length of the messages or completion.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}
+2026-04-01 22:09:14,230 - WARNING -   - 华润三九：2023年年度报告.md: Error code: 400 - {'error': {'message': "This model's maximum context length is 131072 tokens. However, you requested 215533 tokens (215533 in the messages, 0 in the completion). Please reduce the length of the messages or completion.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}
+2026-04-01 22:09:14,231 - WARNING -   - 华润三九：2024年半年度报告.md: Error code: 400 - {'error': {'message': "This model's maximum context length is 131072 tokens. However, you requested 154558 tokens (154558 in the messages, 0 in the completion). Please reduce the length of the messages or completion.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}
+2026-04-01 22:09:14,231 - WARNING -   - 华润三九：2024年年度报告.md: Error code: 400 - {'error': {'message': "This model's maximum context length is 131072 tokens. However, you requested 233053 tokens (233053 in the messages, 0 in the completion). Please reduce the length of the messages or completion.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}
+2026-04-01 22:09:14,232 - WARNING -   - 华润三九：2025年半年度报告.md: Error code: 400 - {'error': {'message': "This model's maximum context length is 131072 tokens. However, you requested 185657 tokens (185657 in the messages, 0 in the completion). Please reduce the length of the messages or completion.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}
+2026-04-01 22:09:14,232 - INFO - 详细日志已保存到: logs/extraction_20260401_220235.log
+2026-04-01 22:09:14,232 - INFO - 程序运行结束
