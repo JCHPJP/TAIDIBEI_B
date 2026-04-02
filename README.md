@@ -1,17 +1,48 @@
-# 
-解析markdown数据，使用大模型图生文大模型进行图片解析，调用qwen3-vl-flash模型。
-一个新的虚拟环境
-conda create -n py10 python=3.10
-conda activate py10
-pip install numpy pandas matplotlib scikit-learn
-pip install ipykernel jupyter
+# 题目文件
+***
+docs\B题-上市公司财报“智能问数”助手.pdf
+***
 
-python -m ipykernel install --user --name=py10 --display-name="py10"
-Installed kernelspec py10 in C:\Users\86193\AppData\Roaming\jupyter\kernels\py10
 
-pip install python-dotenv #配置全局环境
-pip install openai
-pip install openpyxl
-pip install tqdm
+# 任务一：构建结构化财报数据库 
+***
 
-pip install zai-sdk
+## 📁 数据文件
+| 文件 | 说明 |
+|------|------|
+| `data\raw\示例数据\附件2：财务报告` | 原始PDF文件 |
+| `financial_data.db` | SQLite数据库文件 |
+
+## 📓 代码文件
+| 文件 | 说明 | 数据流动 |
+|------|------|--------|
+| `01_财报解析探索.ipynb` | 测试第一问的代码 | 无 |
+| `并行处理.py` | 使用MinerU镜像解析PDF（PDF→Markdown） |data\raw\示例数据\附件2：财务报告 -> parsed_results |
+| `clearn_data.py` | 把图片数据转为表格（img->table)  | parsed_results-> processed|
+| `create_table.py` | 创建四个表格数据 | 无 |
+|  `Agent.py`| 从每个文件中获取四个表格数据| processed-> financial_data.db|
+## 📝 配置与文档
+| 文件 | 说明 |
+|------|------|
+| `prompt-templates.md` | 提取四个数据的提示词（Text2SQL） |
+| `.env` | 环境变量配置文件（存储API密钥等） |
+| ` delete_keywords.txt`| 过滤不必要的章节 |
+
+
+
+***
+
+
+# 任务二：搭建“智能问数”助手 
+***
+- [ ] 未完成
+***
+
+
+
+
+
+# 任务三：增强“智能问数”助手的可靠性
+***
+- [ ] 未完成
+***
