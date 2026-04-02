@@ -1,0 +1,13 @@
+2026-04-02 00:50:18,996 - INFO - 开始处理文件: 600080_20230428_FQ2V.md
+2026-04-02 00:50:19,028 - INFO - 开始处理文件: 600080_20230428_MMWM.md
+2026-04-02 00:50:23,411 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 00:50:24,659 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 00:52:11,770 - INFO - [600080_20230428_MMWM.md] 数据库插入完成: 成功 4 条, 失败 0 条
+2026-04-02 00:52:11,774 - INFO - [600080_20230428_MMWM.md] ✓ 成功提取: 金花股份 (600080) - FY2022
+2026-04-02 00:52:11,774 - INFO - [600080_20230428_MMWM.md] 提取说明: 成功提取公司基本信息及核心财务数据。, 金额单位已按规则将‘元’转换为‘万元’（净现金流字段除外）。, 净利润同比增长为‘不适用’，故设为NULL。, 每股净资产、每股经营现金流、净现金流、资产负债率、营业利润、各项现金流占比等字段根据财报数据计算得出。, 毛利率计算值与财报中披露的‘主营业务毛利率为76.19%’一致。, 营业总支出根据利润表各项费用加总计算得出。, 净现金流单位为元，由三项现金流净额（万元）加总后乘以10000得出。, 由于提取的是年度数据，缺少上一季度数据，因此所有环比增长字段未在SQL中体现（设为NULL）。
+2026-04-02 00:54:23,578 - ERROR - [600080_20230428_FQ2V.md] 插入失败 [core_performance_indicators_sheet]: UNIQUE constraint failed: core_performance_indicators_sheet.serial_number, core_performance_indicators_sheet.stock_code, core_performance_indicators_sheet.report_year, core_performance_indicators_sheet.report_period
+2026-04-02 00:54:23,578 - ERROR - [600080_20230428_FQ2V.md] 插入失败 [balance_sheet]: UNIQUE constraint failed: balance_sheet.serial_number, balance_sheet.stock_code, balance_sheet.report_year, balance_sheet.report_period
+2026-04-02 00:54:23,578 - ERROR - [600080_20230428_FQ2V.md] 插入失败 [income_sheet]: UNIQUE constraint failed: income_sheet.serial_number, income_sheet.stock_code, income_sheet.report_year, income_sheet.report_period
+2026-04-02 00:54:23,580 - ERROR - [600080_20230428_FQ2V.md] 插入失败 [cash_flow_sheet]: UNIQUE constraint failed: cash_flow_sheet.serial_number, cash_flow_sheet.stock_code, cash_flow_sheet.report_year, cash_flow_sheet.report_period
+2026-04-02 00:54:23,580 - INFO - [600080_20230428_FQ2V.md] ✓ 成功提取: 金花股份 (600080) - FY2022
+2026-04-02 00:54:23,580 - INFO - [600080_20230428_FQ2V.md] 提取说明: 成功提取公司基本信息和2022年主要财务数据, 计算了每股净资产、净资产收益率、每股经营现金流、净利率、总负债、总负债同比增长、资产负债率等字段, 部分字段如毛利率、营业成本、投资现金流等未在财报中直接披露，已设为NULL

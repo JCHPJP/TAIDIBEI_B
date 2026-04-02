@@ -18,7 +18,7 @@ if not os.path.exists(log_dir):
     os.makedirs(log_dir)
 
 # 生成日志文件名（按日期）
-log_filename = f"{log_dir}/extraction_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+log_filename = f"{log_dir}/{datetime.now().strftime('%Y%m%d_%H%M%S')}/extraction_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
 
 # 配置 logging
 logging.basicConfig(
@@ -35,7 +35,7 @@ logger = logging.getLogger(__name__)
 # ==================== 配置 ====================
 DB_PATH = "financial_data.db"
 PROMPT_FILE = "prompt-templates.md"
-MAX_PROCESSES = 20  # 进程数
+MAX_PROCESSES = 25  # 进程数
 # ============================================
 
 def load_delete_keywords(file_path):
@@ -80,30 +80,6 @@ def filter_paragraphs_by_keywords(report_text):
     2. 包含删除关键字 → 删除（优先级更高）
     3. 其他 → 默认保留
     """
-    
-    # ========== 1. 定义关键字 ==========
-    
-    # 保留关键字（明确要保留的）
-    keep_keywords = [
-        '主要会计数据',
-        '主要财务指标',
-        '非经常性损益',
-        '科目变动分析表',
-        '合并资产负债表',
-        '合并利润表',
-        '合并现金流量表',
-        '母公司资产负债表',
-        '母公司利润表',
-        '母公司现金流量表',
-        '营业收入',
-        '营业成本',
-        '净利润',
-        '每股收益',
-        '净资产收益率',
-        '总资产',
-        '净资产',
-    ]
-    
     # 删除关键字（明确要删除的冗余内容）
     delete_keywords = load_delete_keywords("delete_keywords.txt")
     # ========== 2. 按 # 分割段落 ==========
@@ -135,7 +111,7 @@ def filter_paragraphs_by_keywords(report_text):
         # 保留
         kept.append( s)
     
-    result = '\n'.join(kept)
+    result = ' '.join(kept)
     return result
 
 

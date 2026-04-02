@@ -1,0 +1,28 @@
+2026-04-02 00:50:06,406 - INFO - ============================================================
+2026-04-02 00:50:06,406 - INFO - 程序开始运行
+2026-04-02 00:50:06,406 - INFO - 日志文件: logs/extraction_20260402_005006.log
+2026-04-02 00:50:06,406 - INFO - ============================================================
+2026-04-02 00:50:06,406 - INFO - 读取提示词模板: prompt-templates.md
+2026-04-02 00:50:06,406 - INFO - 提示词模板加载成功，长度: 10870 字符
+2026-04-02 00:50:06,406 - INFO - 扫描文件夹: processed
+2026-04-02 00:50:06,406 - INFO - 找到 36 个Markdown文件
+2026-04-02 00:50:06,406 - INFO - 使用 25 个进程并发处理
+2026-04-02 00:50:08,216 - INFO - 开始批量处理...
+2026-04-02 00:57:11,606 - INFO - ============================================================
+2026-04-02 00:57:11,606 - INFO - 处理完成汇总
+2026-04-02 00:57:11,606 - INFO - ============================================================
+2026-04-02 00:57:11,606 - INFO - 总文件数: 36
+2026-04-02 00:57:11,606 - INFO - 成功: 31
+2026-04-02 00:57:11,606 - INFO - 失败: 5
+2026-04-02 00:57:11,606 - INFO - 总数据库插入数: 103
+2026-04-02 00:57:11,606 - INFO - 总耗时: 423.39 秒
+2026-04-02 00:57:11,611 - INFO - 平均每个文件耗时: 11.76 秒
+2026-04-02 00:57:11,615 - INFO - 汇总结果已保存到: extraction_summary.json
+2026-04-02 00:57:11,615 - WARNING - 失败的文件列表:
+2026-04-02 00:57:11,615 - WARNING -   - 华润三九：2022年年度报告.md: Error code: 400 - {'error': {'message': "This model's maximum context length is 131072 tokens. However, you requested 141324 tokens (141324 in the messages, 0 in the completion). Please reduce the length of the messages or completion.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}
+2026-04-02 00:57:11,615 - WARNING -   - 华润三九：2023年年度报告.md: Error code: 400 - {'error': {'message': "This model's maximum context length is 131072 tokens. However, you requested 159335 tokens (159335 in the messages, 0 in the completion). Please reduce the length of the messages or completion.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}
+2026-04-02 00:57:11,615 - WARNING -   - 华润三九：2024年半年度报告.md: Error code: 400 - {'error': {'message': "This model's maximum context length is 131072 tokens. However, you requested 133995 tokens (133995 in the messages, 0 in the completion). Please reduce the length of the messages or completion.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}
+2026-04-02 00:57:11,618 - WARNING -   - 华润三九：2024年年度报告.md: Error code: 400 - {'error': {'message': "This model's maximum context length is 131072 tokens. However, you requested 171674 tokens (171674 in the messages, 0 in the completion). Please reduce the length of the messages or completion.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}
+2026-04-02 00:57:11,618 - WARNING -   - 华润三九：2025年半年度报告.md: Error code: 400 - {'error': {'message': "This model's maximum context length is 131072 tokens. However, you requested 147111 tokens (147111 in the messages, 0 in the completion). Please reduce the length of the messages or completion.", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}
+2026-04-02 00:57:11,618 - INFO - 详细日志已保存到: logs/extraction_20260402_005006.log
+2026-04-02 00:57:11,618 - INFO - 程序运行结束

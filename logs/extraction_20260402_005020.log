@@ -1,0 +1,23 @@
+2026-04-02 00:50:20,458 - INFO - 开始处理文件: 600080_20230819_U8CH.md
+2026-04-02 00:50:20,496 - INFO - 开始处理文件: 600080_20231028_F42E.md
+2026-04-02 00:50:20,800 - INFO - 开始处理文件: 600080_20240427_IBMB.md
+2026-04-02 00:50:20,813 - INFO - 开始处理文件: 600080_20240427_0WKP.md
+2026-04-02 00:50:24,751 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 00:50:25,551 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 00:50:26,695 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 00:50:27,193 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-04-02 00:52:20,789 - INFO - [600080_20240427_0WKP.md] 数据库插入完成: 成功 4 条, 失败 0 条
+2026-04-02 00:52:20,789 - INFO - [600080_20240427_0WKP.md] ✓ 成功提取: 金花股份 (600080) - FY2023
+2026-04-02 00:52:20,789 - INFO - [600080_20240427_0WKP.md] 提取说明: 成功提取核心业绩数据，包括股票代码、简称、报告期和年份。, 大部分核心财务数据（如营收、净利润、现金流三大部分）均从财报中直接提取。, 计算了毛利率、净利率、ROE、每股净资产、资产负债率、净现金流等多个指标。, 总股本根据合并资产负债表中的'实收资本(或股本)' 373,270,285.00元，按每股面值1元折算为37327.03万股，用于计算每股指标。, 现金流量表中的'投资支付现金'取自'投资支付的现金' 16600.00万元。, 现金流量表中的'收回投资现金'取自'收回投资收到的现金' 13989.00万元。, 部分数据（如营收同比、净利润同比、总资产同比、总负债同比）直接采用财报'主要会计数据'和'资产及负债状况'表中的增减百分比。
+2026-04-02 00:52:26,132 - INFO - [600080_20231028_F42E.md] 数据库插入完成: 成功 4 条, 失败 0 条
+2026-04-02 00:52:26,132 - INFO - [600080_20231028_F42E.md] ✓ 成功提取: 金花股份 (600080) - Q32023
+2026-04-02 00:52:26,132 - INFO - [600080_20231028_F42E.md] 提取说明: 股票代码未在报告中直接披露，根据'金花企业（集团）股份有限公司'的常用代码设为600080。, 成功提取了报告期（年初至报告期末，即前三季度Q3）的核心业绩数据、资产负债表数据、利润表数据和现金流量表数据。, 单位已统一：金额数据从'元'转换为'万元'，但净现金流(net_cash_flow)保持'元'单位。, 多项指标如毛利率、净利率、资产负债率、净现金流等根据已有数据计算得出。, 由于报告为季度报，未披露上季度数据，因此环比增长率均设为NULL。, 总股本取自合并资产负债表中的'实收资本（或股本）' 373,270,285.00股。, 总负债根据资产总计和所有者权益总计计算得出：2,058,831,041.90 - 1,687,155,970.42 = 371,675,071.48 元。, 营业总支出根据利润表中的各项支出计算得出。, 净现金流已按规则计算并转换为元单位。
+2026-04-02 00:55:05,186 - INFO - [600080_20240427_IBMB.md] 数据库插入完成: 成功 4 条, 失败 0 条
+2026-04-02 00:55:05,186 - INFO - [600080_20240427_IBMB.md] ✓ 成功提取: 金花企业 (600080) - Q12024
+2026-04-02 00:55:05,186 - INFO - [600080_20240427_IBMB.md] 提取说明: 成功提取核心业绩数据，包括每股收益、营业收入、净利润等, 股票代码基于公司简称假设为600080，实际财报未直接披露, 营收环比增长、净利润环比增长、总资产同比增长、总负债同比增长等字段因缺少上季度或去年同期数据设为NULL, 扣非加权ROE未直接披露，设为NULL, 预收账款在资产负债表中未列出，设为NULL, 资产减值损失未直接披露，设为NULL, 投资支付现金和收回投资现金在现金流量表中为空，设为NULL
+2026-04-02 00:55:12,412 - ERROR - [600080_20230819_U8CH.md] 插入失败 [core_performance_indicators_sheet]: UNIQUE constraint failed: core_performance_indicators_sheet.serial_number, core_performance_indicators_sheet.stock_code, core_performance_indicators_sheet.report_year, core_performance_indicators_sheet.report_period
+2026-04-02 00:55:12,412 - ERROR - [600080_20230819_U8CH.md] 插入失败 [balance_sheet]: UNIQUE constraint failed: balance_sheet.serial_number, balance_sheet.stock_code, balance_sheet.report_year, balance_sheet.report_period
+2026-04-02 00:55:12,412 - ERROR - [600080_20230819_U8CH.md] 插入失败 [income_sheet]: UNIQUE constraint failed: income_sheet.serial_number, income_sheet.stock_code, income_sheet.report_year, income_sheet.report_period
+2026-04-02 00:55:12,418 - ERROR - [600080_20230819_U8CH.md] 插入失败 [cash_flow_sheet]: UNIQUE constraint failed: cash_flow_sheet.serial_number, cash_flow_sheet.stock_code, cash_flow_sheet.report_year, cash_flow_sheet.report_period
+2026-04-02 00:55:12,418 - INFO - [600080_20230819_U8CH.md] ✓ 成功提取: 金花股份 (600080) - HY2023
+2026-04-02 00:55:12,418 - INFO - [600080_20230819_U8CH.md] 提取说明: 成功提取核心业绩数据，包括营业收入、净利润、每股收益等, 成功提取资产负债表数据，包括货币资金、应收账款、总资产、总负债等, 成功提取利润表数据，包括营业成本、销售费用、管理费用、营业利润等, 成功提取现金流量表数据，包括经营、投资、筹资现金流净额, 多个字段通过计算得出，如每股净资产、毛利率、净利率、资产负债率、净现金流等
