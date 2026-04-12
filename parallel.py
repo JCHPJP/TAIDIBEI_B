@@ -21,7 +21,7 @@ os.environ['VECLIB_MAXIMUM_THREADS'] = str(omp_threads)
 
 # ===== 配置 =====
 PDF_ROOT = Path.cwd() / 'data' / 'raw' / '示例数据' / '附件2：财务报告'
-OUTPUT_ROOT = Path.cwd() / 'parsed_results'
+OUTPUT_ROOT = Path.cwd() /'附件2：财务报告' /'parsed_results'
 LOG_DIR = Path.cwd() / 'logs'
 
 # 根据GPU和CPU情况调整并发数
@@ -145,6 +145,17 @@ def process_pdf(pdf_path):
     except Exception as e:
         safe_log('error', f"[{thread_name}]   💥 异常: {pdf_path.name}, {str(e)}")
         return False, pdf_path.name
+def set_new_dir(new_folder_name):
+    """
+    切换到新的目录（处理完一个再切换）
+    例：set_new_dir("附件3：行业研报")
+    """
+    global PDF_ROOT, OUTPUT_ROOT, LOG_DIR  # 声明要改全局变量
+
+    # 重新赋值 👇 自动生成新目录路径
+    PDF_ROOT = Path.cwd() / 'data' / 'raw' / '示例数据' / new_folder_name
+    OUTPUT_ROOT = Path.cwd() / new_folder_name / 'parsed_results'
+    LOG_DIR = Path.cwd() / 'logs'  # 日志可以不改，也可以改
 
 def main():
     # 查找所有PDF
