@@ -11,13 +11,15 @@ api_key = os.getenv("ALIYUN_API_KEY")
 def encode_image(image_path):
     with open(image_path, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode("utf-8")
-    
-def img_to_markdown(image_path):
-    base64_image = encode_image(image_path)
+def get_Client(api_key=api_key,base_url="https://dashscope.aliyuncs.com/compatible-mode/v1"):
     client = OpenAI(
         api_key=api_key,  # 你的 API Key
-        base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
+        base_url=base_url,
     )   
+    return client
+def img_to_markdown(image_path):
+    base64_image = encode_image(image_path)
+    client = get_Client()
     completion = client.chat.completions.create(
         model="qwen3-vl-flash",
         messages=[
