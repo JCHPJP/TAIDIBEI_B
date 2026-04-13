@@ -59,19 +59,50 @@ docs\B题-上市公司财报“智能问数”助手.pdf
 | `.env` | 环境变量配置文件（存储API密钥等） |
 | ` delete_keywords.txt`| 通过关键字过滤不必要的章节 |
 
+# 建议的待办事项
 
+| 优先级 | 任务 | 预计工作量 | 状态 |
+|--------|------|-------------|------|
+| P0 | 实现数据一致性校验模块 | 0.5天 | ✅ 已完成 |
+| P0 | 完成4个表的CREATE语句并建库 | 0.5天 | ✅ 已完成 |
+| P0 | 实现财报→数据库的完整ETL流程 | 1天 | ✅ 已完成 |
+| P1 | 实现实体对齐（公司名→代码） | 0.5天 | ⏳ 未完成 |
+| P1 | 实现SQL生成Prompt + 测试 | 1天 | ⏳ 未完成 |
+| P1 | 实现RAG检索（研报向量化） | 1天 | ⏳ 未完成 |
+| P2 | 实现多轮对话状态管理 | 0.5天 | ⏳ 未完成 |
+| P2 | 实现归因追溯（输出链路） | 0.5天 | ⏳ 未完成 |
 
 ***
 
 
 # 任务二：搭建“智能问数”助手 
 ***
-
+task2/<br>
+├── config.py                 # 配置文件<br>
+├── llm_client.py             # 本地DeepSeek模型客户端<br>
+├── database.py               # 数据库操作层<br>
+├── prompts/                  # Prompt模板文件夹<br>
+│   ├── __init__.py          # Prompt模块导出<br>
+│   ├── intent_prompts.py    # 意图识别相关Prompt<br>
+│   ├── sql_prompts.py       # SQL生成相关Prompt<br>
+│   ├── entity_prompts.py    # 实体提取相关Prompt<br>
+│   ├── analysis_prompts.py  # 分析结论生成Prompt<br>
+│   └── conversation_prompts.py # 多轮对话相关Prompt<br>
+├── intent_recognizer.py     # 意图识别器<br>
+├── entity_extractor.py      # 实体提取器<br>
+├── sql_generator.py         # SQL生成器<br>
+├── conversation.py          # 多轮对话管理器<br>
+├── chart_generator.py       # 图表生成器<br>
+├── output_formatter.py      # 输出格式化器<br>
+├── analysis_generator.py    # 分析结论生成器<br>
+├── main.py                  # 主程序入口<br>
+└── result/                  # 图表输出目录<br>
 ## RAG 
 ## DataBase
 ![](images\\20260410_86c948.png)
 
 
+数据统计分析查询，数据基本查询
 ## 第一轮对话：华润三九近三年营收情况如何？
 
 | 步骤 | 执行模块 | 操作内容 | 输出结果 |
