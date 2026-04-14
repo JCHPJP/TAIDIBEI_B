@@ -1,15 +1,15 @@
 # llm_client.py - 保持原样，OpenAI客户端本身就是线程安全的
 from openai import OpenAI
-from config import DEEPSEEK_API_KEY, DEEPSEEK_API_BASE, DEEPSEEK_MODEL
+from config import Config
 import json
 import re
 class DeepSeekClient:
     def __init__(self):
         self.client = OpenAI(
-            api_key=DEEPSEEK_API_KEY,
-            base_url=DEEPSEEK_API_BASE
+            api_key=Config.DeepSeek.API_KEY,
+            base_url=Config.DeepSeek.API_URL
         )
-        self.model = DEEPSEEK_MODEL
+        self.model = Config.DeepSeek.MODEL_NAME
     
     def chat(self, messages, temperature=0.7):
         response = self.client.chat.completions.create(

@@ -1,10 +1,6 @@
 # intent_recognizer.py
 # 意图识别器
-
-import json
-
 from prompts.intent_prompts import INTENT_SYSTEM_PROMPT, get_intent_user_prompt
-from config import CONFIDENCE_THRESHOLD
 from llm_client import DeepSeekClient
 
 class IntentRecognizer:
@@ -21,10 +17,12 @@ class IntentRecognizer:
             dict: 包含intent、confidence、reason的字典
         """
         user_prompt = get_intent_user_prompt(user_input)
-        
-        response = self.client.chat_with_system(
-            system_prompt=INTENT_SYSTEM_PROMPT,
-            user_prompt=user_prompt,
+        messages = [
+            {"role": "system", "content": INTENT_SYSTEM_PROMPT},
+            {"role": "user", "content": user_prompt}
+        ]
+        response = self.client.chat(
+            messages=messages,
             temperature=0.3  # 低温度保证稳定性
         )
         
@@ -70,3 +68,6 @@ class IntentRecognizer:
 
 # 全局意图识别器实例
 intent_recognizer = IntentRecognizer()
+
+if __name__ == "__main__":
+    print( intent_recognizer.recognize("金花股份近几年的利润总额变化趋势是什么样的") )
